@@ -12,13 +12,13 @@ function HeroSection() {
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/70" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
-        <p className="uppercase tracking-widest text-xs sm:text-sm text-yellow-300/80">ScrollBreak</p>
+        <p className="uppercase tracking-[0.3em] text-2xl sm:text-3xl font-semibold text-yellow-300/90 drop-shadow">
+          ScrollBreak
+        </p>
         <h1 className="mt-3 text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight">
           Scroll less. Live more.
         </h1>
-        <p className="mt-4 max-w-2xl text-white/70">
-          A calm space to pause the doomscroll and return to what matters.
-        </p>
+        {/* Supporting paragraph removed per request */}
       </div>
     </header>
   );
